@@ -10,9 +10,9 @@ We will use Python and SQLAlchemy to do basic climate analysis and data explorat
 
 * Choose a start date and end date for our trip. Make sure that our vacation range is approximately 3-15 days total.
 
-* Use SQLAlchemy `create_engine` to connect to your sqlite database.
+* Use SQLAlchemy `create_engine` to connect to our sqlite database.
 
-* Use SQLAlchemy `automap_base()` to reflect your tables into classes and save a reference to those classes called `Station` and `Measurement`.
+* Use SQLAlchemy `automap_base()` to reflect our tables into classes and save a reference to those classes called `Station` and `Measurement`.
 
 ### Precipitation Analysis
 
@@ -54,7 +54,7 @@ We will use Python and SQLAlchemy to do basic climate analysis and data explorat
 
 ## Step 2 - Climate App
 
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+Now that we have completed our initial analysis, we will design a Flask API based on the queries that we have just developed.
 
 * Use Flask to create your routes.
 
