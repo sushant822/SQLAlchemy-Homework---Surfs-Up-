@@ -56,7 +56,7 @@ We will use Python and SQLAlchemy to do basic climate analysis and data explorat
 
 Now that we have completed our initial analysis, we will design a Flask API based on the queries that we have just developed.
 
-* Use Flask to create your routes.
+* Use Flask to create our routes.
 
 ### Routes
 
@@ -89,17 +89,11 @@ Now that we have completed our initial analysis, we will design a Flask API base
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
-## Hints
+* We will need to join the station and measurement tables for some of the queries.
 
-* You will need to join the station and measurement tables for some of the queries.
-
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
+* Use Flask `jsonify` to convert our API data into a valid JSON response object.
 
 - - -
-
-## Bonus: Other Recommended Analyses
-
-* The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
 
 ### Temperature Analysis I
 
